@@ -4,6 +4,15 @@ All notable changes to `micrologs/laravel` will be documented here.
 
 ---
 
+## [1.0.0] - 2026-03-03
+
+Stable release. No code changes from `0.1.0` - version bumped to reflect stability.
+
+### Requires
+- Micrologs engine v1.3.0+
+
+---
+
 ## [0.1.0] - 2026-03-02
 
 Initial release.
