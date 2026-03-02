@@ -1,0 +1,56 @@
+{
+    "name": "micrologs/laravel",
+    "description": "Laravel SDK for Micrologs - self-hosted analytics and error tracking",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Om Dongaonkar",
+            "email": "officialom@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^10.0|^11.0|^12.0",
+        "illuminate/http": "^10.0|^11.0|^12.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.0|^9.0",
+        "phpunit/phpunit": "^10.0|^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Micrologs\\Laravel\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Micrologs\\Laravel\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Micrologs\\Laravel\\MicrologsServiceProvider"
+            ],
+            "aliases": {
+                "Micrologs": "Micrologs\\Laravel\\Facades\\Micrologs"
+            }
+        }
+    },
+    "keywords": [
+        "laravel",
+        "analytics",
+        "error-tracking",
+        "self-hosted",
+        "micrologs",
+        "privacy"
+    ],
+    "homepage": "https://github.com/OmDongaonkar03/Micrologs",
+    "support": {
+        "issues": "https://github.com/OmDongaonkar03/micrologs-laravel/issues",
+        "source": "https://github.com/OmDongaonkar03/micrologs-laravel"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
